@@ -13,8 +13,8 @@ operators = {
 
 def calculate(myarg):
     stack = list()
-    if len(stack) == 3:
-        newstack = list()
+    #if len(stack) == 3:
+     #   newstack = list()
 
     for token in myarg.split():
         try:
