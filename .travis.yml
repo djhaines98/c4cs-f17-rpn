@@ -7,7 +7,7 @@ install:
    - pip install coverage
 script: 
    - python -m unittest test_rpn
-   - coverage run --source=python -m unittest test_rpn
-   - coverage help
+   - coverage run ./test_rpn.py
+  # - coverage help
 after_success: coveralls
  
