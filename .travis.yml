@@ -1,8 +1,8 @@
 language: python
 python: 3.6
-install: 
+install: true
  #  - pip install .
-   - pip install -r requirements.txt
+   #- pip install -r requirements.txt
    #- pip install coveralls
 script: 
    - python -m unittest test_rpn
